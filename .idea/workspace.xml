@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808b8693-4f1b-440d-8f83-b853196c8d33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO/general.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.jss.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoon/PlanetOrMoon.jss.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoon/PlanetOrMoon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetarySystem/PlanetarySystem.jss.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetarySystem/PlanetarySystem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.jss.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/backend-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/backend-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uP4ux8zXh54UBoIi02F6lKSHAq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,8 +47,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\PlanetarySystemListItem\PlanetarySystemListItem.jss.ts" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\VerticalTabGroup\VerticalTabGroup.jss.ts" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\ResponsiveDrawer\ResponsiveDrawer.jss.ts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624554116760</updated>
-      <workItem from="1624554118746" duration="2884000" />
+      <workItem from="1624554118746" duration="17972000" />
     </task>
     <servers />
   </component>
