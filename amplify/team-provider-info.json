@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify622aab33a4084-staging-172824-authRole",
+      "UnauthRoleArn": "arn:aws:iam::304268834392:role/amplify-amplify622aab33a4084-staging-172824-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::304268834392:role/amplify-amplify622aab33a4084-staging-172824-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplify622aab33a4084-staging-172824-deployment",
+      "UnauthRoleName": "amplify-amplify622aab33a4084-staging-172824-unauthRole",
+      "StackName": "amplify-amplify622aab33a4084-staging-172824",
+      "StackId": "arn:aws:cloudformation:us-west-2:304268834392:stack/amplify-amplify622aab33a4084-staging-172824/94a90fc0-d511-11eb-bb3c-06ccdc6367bd",
+      "AmplifyAppId": "d2dsb3645fimp0"
+    },
+    "categories": {
+      "auth": {
+        "solarsystemdaily1f150bd5": {}
+      }
+    }
+  }
+}

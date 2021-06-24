@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "solarsystemdaily1f150bd5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
