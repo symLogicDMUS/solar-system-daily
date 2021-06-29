@@ -1,2 +1,1 @@
-* finish adding all moons (children of PlanetarySystem components) to NavBar
 * add all planets/moons as pages to react-router in App.tsx

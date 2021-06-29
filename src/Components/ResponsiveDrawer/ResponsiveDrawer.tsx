@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from "../NavBar/NavBar";
 import {useTheme} from "@material-ui/core";
 import AppBar from '@material-ui/core/AppBar';
 import Divider from '@material-ui/core/Divider';
@@ -10,9 +11,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { useStyles } from "./ResponsiveDrawer.jss";
-import NavBar from "../NavBar/NavBar";
 
-function ResponsiveDrawer({children}: any) {
+function ResponsiveDrawer({children}: any, {drawerItems}: any) {
     const classes = useStyles();
     const theme = useTheme();
     const [mobileOpen, setMobileOpen] = React.useState(false);

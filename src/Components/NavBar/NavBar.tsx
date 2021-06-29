@@ -1,43 +1,53 @@
 import React from "react";
 import {List} from "@material-ui/core";
-import PlanetarySystem from "../PlanetarySystem/PlanetarySystem";
-import PlanetOrMoon from "../PlanetOrMoon/PlanetOrMoon";
-// import { useStyles } from "./NavBar.jss";
+import PlanetarySystem from "../PlanetarySystemListItem/PlanetarySystemListItem";
+import PlanetOrMoonListItem from "../PlanetOrMoonListItem/PlanetOrMoonListItem";
 
 function NavBar() {
 
     return (
         <List>
             <PlanetarySystem label="Mercury System">
-                <PlanetOrMoon name="Mercury (planet)" page="mercury" />
+                <PlanetOrMoonListItem name="Mercury (planet)" page="mercury" />
             </PlanetarySystem>
             <PlanetarySystem label="Venus System">
-                <PlanetOrMoon label="Venus (planet)" page="venus" />
+                <PlanetOrMoonListItem label="Venus (planet)" page="venus" />
             </PlanetarySystem>
             <PlanetarySystem label="Earth System">
-                <PlanetOrMoon label="Earth (planet)" page="earth" />
+                <PlanetOrMoonListItem label="Earth (planet)" page="earth" />
+                <PlanetOrMoonListItem label="Moon" page="moon" />
             </PlanetarySystem>
             <PlanetarySystem label="Mars System">
-                <PlanetOrMoon label="Mars (planet)" page="mars" />
+                <PlanetOrMoonListItem label="Mars (planet)" page="mars" />
+                <PlanetOrMoonListItem label="Phobos" page="phobos" />
+                <PlanetOrMoonListItem label="Deimos" page="deimos" />
             </PlanetarySystem>
             <PlanetarySystem label="Jupiter System">
-                <PlanetOrMoon label="Jupiter (planet)" page="jupiter" />
-                <PlanetOrMoon label="Ganymede" page="ganymede" />
-                <PlanetOrMoon label="Europa" page="europa" />
-                <PlanetOrMoon label="Io" page="io" />
-                <PlanetOrMoon label="Callisto" page="callisto" />
+                <PlanetOrMoonListItem label="Jupiter (planet)" page="jupiter" />
+                <PlanetOrMoonListItem label="Ganymede" page="ganymede" />
+                <PlanetOrMoonListItem label="Europa" page="europa" />
+                <PlanetOrMoonListItem label="Io" page="io" />
+                <PlanetOrMoonListItem label="Callisto" page="callisto" />
             </PlanetarySystem>
             <PlanetarySystem label="Saturn System">
-                <PlanetOrMoon label="Saturn (planet)" page="saturn" />
-                <PlanetOrMoon label="Titan" page="titan" />
-                <PlanetOrMoon label="Enceladus" page="enceladus" />
-                <PlanetOrMoon label="Mimas" page="mimas" />
+                <PlanetOrMoonListItem label="Saturn (planet)" page="saturn" />
+                <PlanetOrMoonListItem label="Titan" page="titan" />
+                <PlanetOrMoonListItem label="Enceladus" page="enceladus" />
+                <PlanetOrMoonListItem label="Mimas" page="mimas" />
+                <PlanetOrMoonListItem label="Dione" page="dione" />
             </PlanetarySystem>
             <PlanetarySystem label="Uranus System">
-                <PlanetOrMoon label="Uranus (planet)" page="uranus" />
+                <PlanetOrMoonListItem label="Uranus (planet)" page="uranus" />
+                <PlanetOrMoonListItem label="Umbriel" page="umbriel" />
+                <PlanetOrMoonListItem label="Ariel" page="ariel"/>
+                <PlanetOrMoonListItem label="Titania" page="titania" />
+                <PlanetOrMoonListItem label="Miranda" page="miranda" />
             </PlanetarySystem>
             <PlanetarySystem label="Neptune System">
-                <PlanetOrMoon label="Neptune (planet)" page="uranus" />
+                <PlanetOrMoonListItem label="Neptune (planet)" page="uranus" />
+                <PlanetOrMoonListItem label="Proteus" page="proteus" />
+                <PlanetOrMoonListItem label="Nereid" page="nereid" />
+                <PlanetOrMoonListItem label="Larissa" page="larissa" />
             </PlanetarySystem>
         </List>
     );

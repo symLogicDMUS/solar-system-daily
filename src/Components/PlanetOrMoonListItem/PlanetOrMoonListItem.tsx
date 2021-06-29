@@ -1,9 +1,8 @@
 import React from "react";
 import {useHistory} from "react-router-dom";
 import {MenuItem} from "@material-ui/core";
-//import { useStyles } from "./PlanetOrMoon.jss";
 
-function PlanetOrMoon(props: any) {
+function PlanetOrMoonListItem(props: any) {
     const {label, page, ...other}: any = props;
     const history = useHistory();
 
@@ -18,4 +17,4 @@ function PlanetOrMoon(props: any) {
     );
 }
 
-export default PlanetOrMoon;
+export default PlanetOrMoonListItem;

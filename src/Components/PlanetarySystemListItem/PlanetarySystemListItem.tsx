@@ -8,9 +8,14 @@ import ListItem from "@material-ui/core/ListItem";
 import {ListItemSecondaryAction} from "@material-ui/core";
 import ListItemText from "@material-ui/core/ListItemText";
 import {ClickAwayListener, IconButton} from '@material-ui/core';
-import {ariaControls, placementTransform, useStyles} from "./PlanetarySystem.jss";
+import {ariaControls, placementTransform, useStyles} from "./PlanetarySystemListItem.jss";
 
-function PlanetarySystem(props: any) {
+/**
+ * A ListItem that displays a MenuList of planets and moons belonging to a planetary system, on hover or click.
+ * @param props
+ * @constructor
+ */
+function PlanetarySystemListItem(props: any) {
     const {label, children, ...other}: any = props;
     const classes = useStyles();
     const [open, setOpen] = React.useState(false);
@@ -50,6 +55,7 @@ function PlanetarySystem(props: any) {
             <ListItem
                 button
                 aria-haspopup="true"
+                onClick={handleToggle}
                 onMouseEnter={handleToggle}
                 onMouseLeave={handleToggle}
                 aria-controls={ariaControls(open)}
@@ -95,4 +101,4 @@ function PlanetarySystem(props: any) {
     );
 }
 
-export default PlanetarySystem;
+export default PlanetarySystemListItem;
