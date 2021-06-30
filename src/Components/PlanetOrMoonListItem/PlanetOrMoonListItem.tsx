@@ -1,6 +1,6 @@
 import React from "react";
 import {useHistory} from "react-router-dom";
-import {MenuItem} from "@material-ui/core";
+import {ListItem} from "@material-ui/core";
 
 function PlanetOrMoonListItem(props: any) {
     const {label, page, ...other}: any = props;
@@ -11,9 +11,9 @@ function PlanetOrMoonListItem(props: any) {
     };
 
     return (
-        <MenuItem {...other} onClick={toInfoPage}>
+        <ListItem button onClick={toInfoPage} {...other}>
             {label}
-        </MenuItem>
+        </ListItem>
     );
 }
 

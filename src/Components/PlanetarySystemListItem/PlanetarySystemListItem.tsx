@@ -1,102 +1,33 @@
-import React, {useRef, useEffect} from 'react';
-import Grow from '@material-ui/core/Grow';
-import Paper from '@material-ui/core/Paper';
-import Popper from '@material-ui/core/Popper';
+import React from 'react';
 import {ChevronRight} from "@material-ui/icons";
-import MenuList from '@material-ui/core/MenuList';
-import ListItem from "@material-ui/core/ListItem";
-import {ListItemSecondaryAction} from "@material-ui/core";
-import ListItemText from "@material-ui/core/ListItemText";
-import {ClickAwayListener, IconButton} from '@material-ui/core';
-import {ariaControls, placementTransform, useStyles} from "./PlanetarySystemListItem.jss";
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import { useStyles } from "./PlanetarySystemListItem.jss";
+import {ClickAwayListener, List, ListItem, Paper, Portal} from "@material-ui/core";
 
-/**
- * A ListItem that displays a MenuList of planets and moons belonging to a planetary system, on hover or click.
- * @param props
- * @constructor
- */
 function PlanetarySystemListItem(props: any) {
-    const {label, children, ...other}: any = props;
-    const classes = useStyles();
-    const [open, setOpen] = React.useState(false);
-    const anchorRef = React.useRef<HTMLButtonElement>(null);
+    const {label, index, currentMenu, setCurrentMenu, children, ...other}: any = props;
+    const classes = useStyles({index: index});
 
-    /*return focus to the button when we transitioned from !open -> open*/
-    const prevOpen = useRef(open);
-    useEffect(() => {
-        if (prevOpen.current && !open) {
-            anchorRef.current!.focus();
-        }
-
-        prevOpen.current = open;
-    }, [open]);
-
-    const handleToggle = () => {
-        setOpen((prevOpen) => !prevOpen);
-    };
-
-    const handleClose = (event: React.MouseEvent<EventTarget>) => {
-        if (anchorRef.current && anchorRef.current.contains(event.target as HTMLElement)) {
-            return;
-        }
-
-        setOpen(false);
-    };
-
-    const handleListKeyDown = (event: React.KeyboardEvent) => {
-        if (event.key === 'Tab') {
-            event.preventDefault();
-            setOpen(false);
-        }
-    };
+    const open = Boolean(currentMenu===label);
 
     return (
         <div className={classes.root} {...other}>
-            <ListItem
-                button
-                aria-haspopup="true"
-                onClick={handleToggle}
-                onMouseEnter={handleToggle}
-                onMouseLeave={handleToggle}
-                aria-controls={ariaControls(open)}
-            >
-                {/*<ListItemIcon></ListItemIcon>*/}
-                <ListItemText id="planet-name" primary={label} />
-                <ListItemSecondaryAction>
-                    <IconButton
-                        edge="end"
-                        onClick={handleToggle}
-                    >
-                        <ChevronRight />
-                    </IconButton>
-                </ListItemSecondaryAction>
+            <ListItem button onMouseEnter={() => setCurrentMenu(label)}>
+                <ListItemText>{label}</ListItemText>
+                <ListItemIcon>
+                    <ChevronRight />
+                </ListItemIcon>
             </ListItem>
-            <Popper
-                open={open}
-                role={undefined}
-                anchorEl={anchorRef.current}
-                transition
-                disablePortal
-            >
-                {({ TransitionProps, placement }) => (
-                    <Grow
-                        {...TransitionProps}
-                        style={placementTransform(placement)}
-                    >
-                        <Paper>
-                            <ClickAwayListener onClickAway={handleClose}>
-                                <MenuList
-                                    autoFocusItem={open}
-                                    id="menu-list-grow"
-                                    onKeyDown={handleListKeyDown}
-                                >
-                                    {children}
-                                </MenuList>
-                            </ClickAwayListener>
-                        </Paper>
-                    </Grow>
-                )}
-            </Popper>
+            {open && (
+                <Portal>
+                    <ClickAwayListener onClickAway={() => setCurrentMenu(null)}>
+                        <List className={classes.planetAndMoonsMenu}>
+                            {children}
+                        </List>
+                    </ClickAwayListener>
+                </Portal>
+            )}
         </div>
     );
 }

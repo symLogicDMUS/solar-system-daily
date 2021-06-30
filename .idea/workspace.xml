@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808b8693-4f1b-440d-8f83-b853196c8d33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/PlanetOrMoonInfo.jss.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/PlanetOrMoonInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/TabPanel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/TabPanelProps.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/a11yProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home.jss.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loading.jss.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/MouseOverPopover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Reuseables/StyledMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Reuseables/StyledMenuItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO/general.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/general.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.jss.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoon/PlanetOrMoon.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.jss.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoon/PlanetOrMoon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystem/PlanetarySystem.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.jss.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystem/PlanetarySystem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/CustomizedMenus.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.jss.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.jss.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +74,7 @@
       <updated>1624554116760</updated>
       <workItem from="1624554118746" duration="18568000" />
       <workItem from="1624978552027" duration="3781000" />
-      <workItem from="1624986454399" duration="6306000" />
+      <workItem from="1624986454399" duration="23827000" />
     </task>
     <servers />
   </component>
