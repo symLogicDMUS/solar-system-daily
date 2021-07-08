@@ -1,16 +1,11 @@
 import React from "react";
-import ResponsiveDrawer from
-        "./Components/ResponsiveDrawer/ResponsiveDrawer";
-import NavBar from "./Components/NavBar/NavBar";
-// import { useStyles } from "./Home.jss";
+import ResponsiveDrawer from "./Components/ResponsiveDrawer/ResponsiveDrawer";
 
 function Home() {
-    // const classes = useStyles();
-
     return (
         <>
-            <ResponsiveDrawer>
-                <img src={"/Images/solar-system-template.svg"} />
+            <ResponsiveDrawer title="Home">
+                <img src={"/Images/solar-system-template.svg"} style={{maxWidth: '100%', maxHeight: '100%'}} />
             </ResponsiveDrawer>
         </>
     );

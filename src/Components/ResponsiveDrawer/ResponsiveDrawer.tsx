@@ -10,9 +10,11 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { useStyles } from "./ResponsiveDrawer.jss";
+import {ResponsiveDrawerProps} from "./ResponsiveDrawerProps";
+import {useStyles} from "./ResponsiveDrawer.jss";
 
-function ResponsiveDrawer({children}: any, {drawerItems}: any) {
+function ResponsiveDrawer(props: ResponsiveDrawerProps) {
+    const {children, title} = props;
     const classes = useStyles();
     const theme = useTheme();
     const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -35,21 +37,20 @@ function ResponsiveDrawer({children}: any, {drawerItems}: any) {
             <AppBar position="fixed" className={classes.appBar}>
                 <Toolbar>
                     <IconButton
+                        edge="start"
                         color="inherit"
                         aria-label="open drawer"
-                        edge="start"
                         onClick={handleDrawerToggle}
                         className={classes.menuButton}
                     >
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap>
-                        Responsive drawer
+                        {title}
                     </Typography>
                 </Toolbar>
             </AppBar>
             <nav className={classes.drawer} aria-label="mailbox folders">
-                {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
                 <Hidden smUp implementation="css">
                     <Drawer
                         variant="temporary"
@@ -78,9 +79,9 @@ function ResponsiveDrawer({children}: any, {drawerItems}: any) {
                     </Drawer>
                 </Hidden>
             </nav>
-            <main className={classes.content}>
+            <main className={classes.main}>
                 <div className={classes.toolbar} />
-                {children}
+                <div className={classes.content}>{children}</div>
             </main>
         </div>
     );

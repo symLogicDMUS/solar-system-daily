@@ -1,9 +1,9 @@
 import React from 'react';
 import {ChevronRight} from "@material-ui/icons";
+import {List, ListItem,Portal} from "@material-ui/core";
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import { useStyles } from "./PlanetarySystemListItem.jss";
-import {ClickAwayListener, List, ListItem, Paper, Portal} from "@material-ui/core";
 
 function PlanetarySystemListItem(props: any) {
     const {label, index, currentMenu, setCurrentMenu, children, ...other}: any = props;
@@ -13,7 +13,11 @@ function PlanetarySystemListItem(props: any) {
 
     return (
         <div className={classes.root} {...other}>
-            <ListItem button onMouseEnter={() => setCurrentMenu(label)}>
+            <ListItem
+                button
+                onClick={() => setCurrentMenu(label)}
+                onMouseEnter={() => setCurrentMenu(label)}
+            >
                 <ListItemText>{label}</ListItemText>
                 <ListItemIcon>
                     <ChevronRight />
@@ -21,11 +25,9 @@ function PlanetarySystemListItem(props: any) {
             </ListItem>
             {open && (
                 <Portal>
-                    <ClickAwayListener onClickAway={() => setCurrentMenu(null)}>
-                        <List className={classes.planetAndMoonsMenu}>
-                            {children}
-                        </List>
-                    </ClickAwayListener>
+                    <List className={classes.planetAndMoonsMenu}>
+                        {children}
+                    </List>
                 </Portal>
             )}
         </div>

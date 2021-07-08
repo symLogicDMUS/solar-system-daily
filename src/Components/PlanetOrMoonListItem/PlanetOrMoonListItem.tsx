@@ -11,7 +11,7 @@ function PlanetOrMoonListItem(props: any) {
     };
 
     return (
-        <ListItem button onClick={toInfoPage} {...other}>
+        <ListItem color button onClick={toInfoPage} {...other}>
             {label}
         </ListItem>
     );

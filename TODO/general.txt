@@ -1,1 +1,8 @@
-* add all planets/moons as pages to react-router in App.tsx
+* change Material-UI built in Theme
+* Implement Material-UI card component with hard coded data for time being
+* Implement Material-UI table component with hard coded data for time being
+* find npm module for line-graph and use drop down for type of line graph
+* start looking at making API calls to NASA.gov API
+* add event listener for if user touched screen, and use as condition for if onClick or onHover is used for ListItem components
+* we want to save what was taken from NASA API using GraphQL (long term).
+*
