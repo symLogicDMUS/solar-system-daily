@@ -2,28 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808b8693-4f1b-440d-8f83-b853196c8d33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItemProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawerProps.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ScreenTouchContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/planetarySystems.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBar.jss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBarLg.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBarLgParams.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBarMd.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBarMdParams.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.jss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfoParams.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavDrawer/NavDrawer.jss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavDrawer/NavDrawer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.jss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/imgDict.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tabs/TabsLg.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tabs/TabsLgParams.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tabs/TabsMd.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tabs/TabsMdParams.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Tabs/labels.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Toolbar/ToolbarMd.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Toolbar/ToolbarMdParams.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/capitalize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/lorem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/vw.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prettify.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.graphqlconfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.graphqlconfig.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO/general.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/general.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/.config/project-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/.config/project-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/parameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/resolvers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/resolvers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/stacks/CustomResources.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/stacks/CustomResources.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/transform.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/api/solarsystemdaily/transform.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/auth/solarsystemdaily1f150bd5/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/auth/solarsystemdaily1f150bd5/parameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/auth/solarsystemdaily1f150bd5/solarsystemdaily1f150bd5-cloudformation-template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/auth/solarsystemdaily1f150bd5/solarsystemdaily1f150bd5-cloudformation-template.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/backend-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/backend-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/storage/imagestorage/parameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/storage/imagestorage/parameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/storage/imagestorage/s3-cloudformation-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/storage/imagestorage/s3-cloudformation-template.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/storage/imagestorage/storage-params.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/storage/imagestorage/storage-params.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/tags.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/backend/tags.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/cli.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/cli.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/team-provider-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/amplify/team-provider-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.jss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/PlanetOrMoonInfo.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/PlanetOrMoonInfo.jss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/TabPanelProps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/TabPanelProps.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystems/PlanetarySystems.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystems/PlanetarySystems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/PlanetOrMoonInfo.jss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/PlanetOrMoonInfo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/TabPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TabPanel/TabPanel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/TabPanelProps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TabPanel/TabPanelProps.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonInfo/a11yProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tabs/a11yProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.jss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/MouseOverPopover.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.jss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItemProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItemProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.jss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawerProps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResponsiveDrawer/ResponsiveDrawerProps.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Reuseables/StyledMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StyledMenuItem/StyledMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Reuseables/StyledMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StyledMenuItem/StyledMenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.jss.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loading.jss.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loading.jss.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScreenTouchContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScreenTouchContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphql/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphql/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/queries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphql/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphql/subscriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphql/subscriptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetarySystems.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetarySystems.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +128,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -77,8 +141,32 @@
       <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\ResponsiveDrawer\ResponsiveDrawer.jss.ts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\Tabs" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\Toolbar" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\AppBar\children" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\StyledMenuItem" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\TabPanel" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="prettify.s" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/prettify.s" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.prettify.s" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,5 +187,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

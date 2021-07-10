@@ -1,0 +1,1 @@
+export const vw = () => window.innerWidth;

@@ -5,7 +5,7 @@ function Home() {
     return (
         <>
             <ResponsiveDrawer title="Home">
-                <img src={"/Images/solar-system-template.svg"} style={{maxWidth: '100%', maxHeight: '100%'}} />
+                <img src={"/Images/solar-system-template.svg"} />
             </ResponsiveDrawer>
         </>
     );

@@ -1,6 +1,6 @@
 type Planet @model {
-  id: ID!
-  name: String!
-  description: String
-  image: String
+    id: ID!
+    name: String!
+    description: String
+    image: String
 }

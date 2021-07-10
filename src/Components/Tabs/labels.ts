@@ -1,0 +1,1 @@
+export const labels = ['Background Info', 'Table', 'Graphs', 'Images']

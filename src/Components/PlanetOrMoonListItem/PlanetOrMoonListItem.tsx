@@ -1,9 +1,9 @@
 import React from "react";
-import {useHistory} from "react-router-dom";
-import {ListItem} from "@material-ui/core";
+import { useHistory } from "react-router-dom";
+import { ListItem } from "@material-ui/core";
 
 function PlanetOrMoonListItem(props: any) {
-    const {label, page, ...other}: any = props;
+    const { label, page, ...other }: any = props;
     const history = useHistory();
 
     const toInfoPage = () => {
