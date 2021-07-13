@@ -22,7 +22,9 @@ export const useStyles = makeStyles((theme) =>
             overflow: 'scroll',
         },
         content: {
-            flex: '1 0 auto',
+            "@media (min-aspect-ratio: 1/1)":{
+                flex: '1 0 auto',
+            },
         },
         img: {
             minWidth: '45vw',

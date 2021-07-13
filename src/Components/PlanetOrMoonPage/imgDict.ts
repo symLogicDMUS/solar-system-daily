@@ -10,7 +10,7 @@ export const imgDict = {
     "moon": '/Images/Moon.jpg',
     "phobos": '/Images/Phobos.jpg',
     "deimos": '/Images/Deimos.jpg',
-    "ganymede": '/Images/Ganymede.jpg',
+    "ganymede": '/Images/Ganymede.png',
     "europa":'/Images/Europa.jpg',
     "io":'/Images/Io.jpg',
     "callisto": '/Images/Callisto.jpg',
@@ -18,4 +18,7 @@ export const imgDict = {
     "enceladus": '/Images/Enceladus.jpg',
     "mimas": '/Images/Mimas.jpg',
     "dione": '/Images/Dione.jpg',
+    "proteus": '/Images/Proteus.jpg',
+    "larissa": '/Images/Larissa.jpg',
+    "nereid": '/Images/Nereid.jpg',
 };

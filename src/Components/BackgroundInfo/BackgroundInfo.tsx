@@ -19,7 +19,7 @@ export default function BackgroundInfo(props: BackgroundInfoParams) {
             />
             <div className={classes.details}>
                 <CardContent className={classes.content}>
-                    <Typography component="h5" variant="h5" paragraph>
+                    <Typography component="h5" variant="h5" gutterBottom>
                         {name}
                     </Typography>
                     <Typography variant="body2">
