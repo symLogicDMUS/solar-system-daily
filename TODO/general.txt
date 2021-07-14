@@ -1,5 +1,5 @@
 * start looking at making API calls to NASA.gov API
 * Implement Material-UI card component with hard coded data for time being
 * Implement Material-UI table component with hard coded data for time being
-* find npm module for line-graph and use drop down for type of line graph
+* use recharts module (installed) for line charts base on table.
 * we want to save what was taken from NASA API using GraphQL (long term).

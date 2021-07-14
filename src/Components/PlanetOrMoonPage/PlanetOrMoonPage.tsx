@@ -9,6 +9,7 @@ import BackgroundInfo from "../BackgroundInfo/BackgroundInfo";
 import { capitalize } from "../../helpers/capitalize";
 import { useStyles } from "./PlanetOrMoonPage.jss";
 import {imgDict} from "./imgDict";
+import PlanetOrMoonTable from "../PlanetOrMoonTable/PlanetOrMoonTable";
 
 /**
  * Uses Material-UI Tabs for different types of info about a planet or moon (given by the page prop)
@@ -55,11 +56,10 @@ export default function PlanetOrMoonPage(props: any) {
                 <div className={classes.toolbar} />
                 <div className={classes.content}>
                     <TabPanel value={value} index={0}>
-                        <BackgroundInfo name={capitalize(page)} info={lorem} image={planetImg} title="page" />
+                        <BackgroundInfo name={capitalize(page)} info={lorem} image={planetImg} />
                     </TabPanel>
                     <TabPanel value={value} index={1}>
-                        Insert table (Material UI Table component) of all
-                        non-image data here
+                        <PlanetOrMoonTable />
                     </TabPanel>
                     <TabPanel value={value} index={2}>
                         Insert dropdown for the type of data and graph below it,

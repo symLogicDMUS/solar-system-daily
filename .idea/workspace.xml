@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="808b8693-4f1b-440d-8f83-b853196c8d33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/MediaCard.jss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/MediaCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/MediaControlCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/Column.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/Data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/PlanetOrMoonTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/StyledTableCell.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/StyledTableRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/columns.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/createData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/rows.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO/general.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO/general.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.jss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/imgDict.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/imgDict.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfoParams.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfoParams.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/MediaCard.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/PlanetOrMoonTable.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/MediaCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StyledMenuItem/StyledMenu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StyledMenuItem/StyledMenuItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/lorem.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/lorem.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="es6.move.members.recent.items">
-      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\PlanetarySystemListItem\PlanetarySystemListItemProps.ts" />
-      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\PlanetInfo\PlanetInfo.jss.ts" />
-      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\PlanetarySystemListItem\PlanetarySystemListItem.jss.ts" />
-      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\VerticalTabGroup\VerticalTabGroup.jss.ts" />
-      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\ResponsiveDrawer\ResponsiveDrawer.jss.ts" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\PlanetOrMoonTable\StyledTableRow.tsx" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\PlanetOrMoonTable\StyledTableCell.tsx" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\Table\rows.ts" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\Table\createData.ts" />
+      <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\Table\rows.tsx" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bjrat\source\repos\Javascript\solar-system-daily\src\Components\Tabs" />
@@ -102,7 +119,7 @@
       <workItem from="1625509937881" duration="1418000" />
       <workItem from="1625694573168" duration="705000" />
       <workItem from="1625757875783" duration="24069000" />
-      <workItem from="1626198401502" duration="2234000" />
+      <workItem from="1626198401502" duration="30628000" />
     </task>
     <servers />
   </component>
