@@ -1,16 +1,29 @@
 import React, { useState } from "react";
-import { ClickAwayListener, List } from "@material-ui/core";
+import {useHistory} from "react-router";
+import ListItemText from "@material-ui/core/ListItemText";
+import {ClickAwayListener, List, ListItem} from "@material-ui/core";
 import PlanetOrMoonListItem from "../PlanetOrMoonListItem/PlanetOrMoonListItem";
 import PlanetarySystemListItem from "../PlanetarySystemListItem/PlanetarySystemListItem";
 
 function PlanetarySystems() {
+    const history = useHistory();
     const [currentMenu, setCurrentMenu] = useState(null);
 
     return (
         <ClickAwayListener onClickAway={() => setCurrentMenu(null)}>
             <List>
+                <ListItem
+                    button
+                    onClick={() => {
+                        setCurrentMenu(null)
+                        history.push('/')
+                    }}
+                    onMouseEnter={() => setCurrentMenu(null)}
+                >
+                    <ListItemText>Home</ListItemText>
+                </ListItem>
                 <PlanetarySystemListItem
-                    index={0}
+                    index={1}
                     label="Mercury System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}
@@ -21,7 +34,7 @@ function PlanetarySystems() {
                     />
                 </PlanetarySystemListItem>
                 <PlanetarySystemListItem
-                    index={1}
+                    index={2}
                     label="Venus System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}
@@ -29,7 +42,7 @@ function PlanetarySystems() {
                     <PlanetOrMoonListItem label="Venus (planet)" page="venus" />
                 </PlanetarySystemListItem>
                 <PlanetarySystemListItem
-                    index={2}
+                    index={3}
                     label="Earth System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}
@@ -38,7 +51,7 @@ function PlanetarySystems() {
                     <PlanetOrMoonListItem label="Moon" page="moon" />
                 </PlanetarySystemListItem>
                 <PlanetarySystemListItem
-                    index={3}
+                    index={4}
                     label="Mars System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}
@@ -48,7 +61,7 @@ function PlanetarySystems() {
                     <PlanetOrMoonListItem label="Deimos" page="deimos" />
                 </PlanetarySystemListItem>
                 <PlanetarySystemListItem
-                    index={4}
+                    index={5}
                     label="Jupiter System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}
@@ -63,7 +76,7 @@ function PlanetarySystems() {
                     <PlanetOrMoonListItem label="Callisto" page="callisto" />
                 </PlanetarySystemListItem>
                 <PlanetarySystemListItem
-                    index={5}
+                    index={6}
                     label="Saturn System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}
@@ -78,7 +91,7 @@ function PlanetarySystems() {
                     <PlanetOrMoonListItem label="Dione" page="dione" />
                 </PlanetarySystemListItem>
                 <PlanetarySystemListItem
-                    index={6}
+                    index={7}
                     label="Uranus System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}
@@ -93,7 +106,7 @@ function PlanetarySystems() {
                     <PlanetOrMoonListItem label="Miranda" page="miranda" />
                 </PlanetarySystemListItem>
                 <PlanetarySystemListItem
-                    index={7}
+                    index={8}
                     label="Neptune System"
                     currentMenu={currentMenu}
                     setCurrentMenu={setCurrentMenu}

@@ -29,6 +29,7 @@ export function NavDrawer(props: { open: boolean; onClose: () => void }) {
                     <div>
                         <div className={classes.toolbar} />
                         <Divider />
+
                         <PlanetarySystems />
                     </div>
                 </Drawer>

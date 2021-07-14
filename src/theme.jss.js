@@ -16,10 +16,7 @@ export const theme = createMuiTheme({
         type: "dark",
         primary: {
             main: darken(paper, 0.02),
-            contrastText: "#80cbc4"
-        },
-        secondary: {
-            main: darken(paper, 0.1),
+            contrastText: "#c5cae9"
         },
         text: {
             primary: "#b3e5fc",
