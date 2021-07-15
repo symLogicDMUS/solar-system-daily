@@ -6,5 +6,6 @@ export const planetarySystems = {
     "jupiter-system": ["jupiter", "ganymede", "europa", "io", "callisto"],
     "saturn-system": ["saturn", "titan", "enceladus", "mimas", "dione"],
     "uranus-system": ["uranus", "umbriel", "ariel", "titania", "miranda"],
-    "neptune-system": ["nepture", "proteus", "nereid", "larissa"],
+    "neptune-system": ["neptune", "proteus", "nereid", "larissa"],
+    "pluto-system":["pluto", "charon"],
 };

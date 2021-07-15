@@ -1,4 +1,5 @@
 $length: 0.35rem;
+$color1: #263238;
 
 ::-webkit-scrollbar {
     @media screen and (max-width: 960px) {
@@ -12,29 +13,30 @@ $length: 0.35rem;
 
 /* button */
 ::-webkit-scrollbar-button {
-    background: #353333;
+    background: $color1;
+    opacity: 0.5%;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #433a3a;
+    background: #37474f;
     opacity: 0.5%;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #353333;
+    background: $color1;
     opacity: 0.5%;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #353333;
+    background: $color1;
 }
 
 /* Corner */
 ::-webkit-scrollbar-corner {
-    background: #353333;
+    background: $color1;
 }
 
 /* Resizer */

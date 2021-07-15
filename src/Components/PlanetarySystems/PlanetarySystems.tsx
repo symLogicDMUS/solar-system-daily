@@ -119,6 +119,15 @@ function PlanetarySystems() {
                     <PlanetOrMoonListItem label="Nereid" page="nereid" />
                     <PlanetOrMoonListItem label="Larissa" page="larissa" />
                 </PlanetarySystemListItem>
+                <PlanetarySystemListItem
+                    index={9}
+                    label="Pluto System"
+                    currentMenu={currentMenu}
+                    setCurrentMenu={setCurrentMenu}
+                >
+                    <PlanetOrMoonListItem label="Pluto (dwarf planet)" page="pluto" />
+                    <PlanetOrMoonListItem label="Charon" page="charon" />
+                </PlanetarySystemListItem>
             </List>
         </ClickAwayListener>
     );

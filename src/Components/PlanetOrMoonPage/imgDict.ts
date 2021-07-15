@@ -21,4 +21,7 @@ export const imgDict = {
     "proteus": '/Images/Proteus.jpg',
     "larissa": '/Images/Larissa.jpg',
     "nereid": '/Images/Nereid.jpg',
+    "pluto": '/Images/Pluto.jpg',
+    "charon": '/Images/Charon.jpg',
+
 };

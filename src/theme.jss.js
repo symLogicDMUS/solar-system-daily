@@ -1,6 +1,6 @@
 import {createMuiTheme, darken, lighten} from "@material-ui/core";
 
-const paper = "#263238";
+export const paper = "#263238";
 
 export const theme = createMuiTheme({
     breakpoints: {
@@ -16,11 +16,11 @@ export const theme = createMuiTheme({
         type: "dark",
         primary: {
             main: darken(paper, 0.02),
-            contrastText: "#c5cae9"
+            contrastText: "#ffa726",
         },
         text: {
             primary: "#b3e5fc",
-            secondary: "#35baf6",
+            secondary: "#ffa726",
         },
         background: {
             paper: paper,
