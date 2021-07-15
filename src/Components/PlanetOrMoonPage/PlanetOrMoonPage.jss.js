@@ -1,10 +1,8 @@
 import { makeStyles } from "@material-ui/core/styles";
-import {
-    appBarHeightLg,
-    appBarHeightMd,
-    appBarHeightSm,
-    drawerWidth,
-} from "../ResponsiveDrawer/ResponsiveDrawer.jss";
+import {drawerWidth} from "../ResponsiveDrawer/ResponsiveDrawer.jss";
+
+export const tabHeightSm = 48;
+const tabTopBottomPadding = 6;
 
 export const useStyles = makeStyles(
     (theme) => ({
@@ -32,6 +30,11 @@ export const useStyles = makeStyles(
         },
         // necessary for content to be below app bar
         toolbar: theme.mixins.toolbar,
+        tabBar: {
+            '@media screen and (max-width: 960px)': {
+                height: tabHeightSm + tabTopBottomPadding*2,
+            },
+        },
         content: {
             display: 'flex',
         },

@@ -23,9 +23,11 @@ export const useStyles = makeStyles(
             "& .MuiTab-root": {
                 height: appBarHeightLg,
             },
+            zIndex: 1100,
         },
         tabsMd: {
             flexGrow: 1,
+            zIndex: 1000,
         },
         hidden: {
             display: "none",

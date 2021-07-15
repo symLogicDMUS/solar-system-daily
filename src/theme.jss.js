@@ -1,6 +1,7 @@
 import {createMuiTheme, darken, lighten} from "@material-ui/core";
+import {blueGrey, orange, teal} from "@material-ui/core/colors";
 
-export const paper = "#263238";
+export const paper = blueGrey[900];
 
 export const theme = createMuiTheme({
     breakpoints: {
@@ -16,19 +17,20 @@ export const theme = createMuiTheme({
         type: "dark",
         primary: {
             main: darken(paper, 0.02),
-            contrastText: "#ffa726",
+            contrastText: orange[400],
         },
         text: {
-            primary: "#b3e5fc",
-            secondary: "#ffa726",
+            primary: teal[100],
+            secondary: orange[400],
         },
         background: {
             paper: paper,
-            default: darken('#263238', 0.35),
+            default: darken(paper, 0.35),
         },
         action: {
             hover: lighten(paper, 0.025),
         },
         divider: "rgba(10, 0, 0, 0.25)",
     },
+    typography: {},
 });

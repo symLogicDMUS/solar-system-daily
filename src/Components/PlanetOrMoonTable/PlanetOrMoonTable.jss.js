@@ -5,6 +5,11 @@ const padding = 24;
 
 export const useStyles = makeStyles({
     root: {
-        width: `calc(100vw - ${drawerWidth + padding*2}px)`,
+        '@media screen and (max-width: 960px)': {
+            width: `calc(100vw - ${padding*2}px)`,
+        },
+        '@media screen and (min-width: 960px)': {
+            width: `calc(100vw - ${drawerWidth + padding*2}px)`,
+        },
     },
 });

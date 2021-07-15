@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {imgDict} from "./imgDict";
 import {lorem} from "../../helpers/lorem";
 import { AppBarMd } from "../AppBar/AppBarMd";
 import { AppBarLg } from "../AppBar/AppBarLg";
@@ -6,10 +7,9 @@ import { TabPanel } from "../TabPanel/TabPanel";
 import { NavDrawer } from "../NavDrawer/NavDrawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import BackgroundInfo from "../BackgroundInfo/BackgroundInfo";
+import PlanetOrMoonTable from "../PlanetOrMoonTable/PlanetOrMoonTable";
 import { capitalize } from "../../helpers/capitalize";
 import { useStyles } from "./PlanetOrMoonPage.jss";
-import {imgDict} from "./imgDict";
-import PlanetOrMoonTable from "../PlanetOrMoonTable/PlanetOrMoonTable";
 
 /**
  * Uses Material-UI Tabs for different types of info about a planet or moon (given by the page prop)
@@ -54,6 +54,7 @@ export default function PlanetOrMoonPage(props: any) {
             <NavDrawer open={mobileOpen} onClose={handleDrawerToggle} />
             <main className={classes.main}>
                 <div className={classes.toolbar} />
+                <div className={classes.tabBar} />
                 <div className={classes.content}>
                     <TabPanel value={value} index={0}>
                         <BackgroundInfo name={capitalize(page)} info={lorem} image={planetImg} />
@@ -62,8 +63,7 @@ export default function PlanetOrMoonPage(props: any) {
                         <PlanetOrMoonTable />
                     </TabPanel>
                     <TabPanel value={value} index={2}>
-                        Insert dropdown for the type of data and graph below it,
-                        here
+                        Insert dropdown for the type of data and graph below it, here
                     </TabPanel>
                     <TabPanel value={value} index={3}>
                         Insert images from Nasa's API, here

@@ -16,8 +16,8 @@ function BackgroundInfo(props: BackgroundInfoParams) {
                 src={image}
                 className={classes.planetImg}
             />
-            <CardContent className={classes.info}>
-                <Typography variant="body2">
+            <CardContent className={classes.cardContent}>
+                <Typography variant="body1" className={classes.paragraph}>
                     {info}
                 </Typography>
             </CardContent>

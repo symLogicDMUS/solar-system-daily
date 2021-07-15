@@ -4,8 +4,9 @@ import { List, ListItem, Portal } from "@material-ui/core";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import { useStyles } from "./PlanetarySystemListItem.jss";
+import {PlanetarySystemListItemProps} from "./PlanetarySystemListItemProps";
 
-function PlanetarySystemListItem(props: any) {
+function PlanetarySystemListItem(props: PlanetarySystemListItemProps) {
     const {
         label,
         index,
