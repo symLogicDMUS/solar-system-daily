@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="808b8693-4f1b-440d-8f83-b853196c8d33" name="Default Changelist" comment="">
+    <list default="true" id="08cc9681-c57c-4f18-aac6-dabaddee0e47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AppBar/AppBar.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBar.jss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.jss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BackgroundInfo/BackgroundInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BackgroundInfo/MediaControlCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavDrawer/NavDrawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavDrawer/NavDrawer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.jss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonPage/PlanetOrMoonPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/PlanetOrMoonTable.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/PlanetOrMoonTable.jss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonListItem/PlanetOrMoonListItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/StyledTableCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetOrMoonTable/StyledTableCell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PlanetarySystemListItem/PlanetarySystemListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Tabs/TabsMd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Tabs/TabsMd.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme.jss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.jss.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

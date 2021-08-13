@@ -1,5 +1,5 @@
 $length: 0.35rem;
-$color1: #263238;
+$color1: #212121;
 
 ::-webkit-scrollbar {
     @media screen and (max-width: 960px) {
@@ -19,7 +19,7 @@ $color1: #263238;
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #37474f;
+    background: #383838;
     opacity: 0.5%;
 }
 
